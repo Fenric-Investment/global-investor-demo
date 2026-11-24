@@ -1,0 +1,9 @@
+[server]
+# Imports in portfolio_io.py already enforce 512 KiB; limit the UI uploader as well.
+maxUploadSize = 1
+# Keep Streamlit's cross-origin and cross-site request forgery protections enabled.
+enableCORS = true
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
